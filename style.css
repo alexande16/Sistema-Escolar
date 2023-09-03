@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2? family= Open+Sans:wght@300;400 & display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url(imagens/2534200.jpg);
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    height: 40px;
+    background-color: white;
+    opacity: 80%;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    padding-top: 100px;
+    gap: 10px;
+}
+input{
+    height: 30px;
+    width: 150px;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 10px 10px 10px;
+}
+input::-webkit-inner-spin-button{
+    appearance: none;
+}
+.input-area{
+    background-color: rgba(0, 0, 0, 0.94);
+    color: white;
+    height: 378px;
+    width: 300px;
+    border-radius: 10px 10px 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
+}
+button{
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    opacity: 80%;
+    cursor: pointer;
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+#result{
+    font-family: 'Open Sans', sans-serif;
+}
